@@ -8,7 +8,7 @@ result in the paper from raw data to tables and figures.
 
 | Script | Produces | Paper element |
 |---|---|---|
-| `validation_configA.py` | Unsupervised detector (AE + reconstruction-error threshold): DR/FAR/F1/accuracy/ROC-AUC/PR-AUC with 95% CIs, ROC & PR curves, threshold-sensitivity sweep | Table 4 (row A), Table 4-x, Fig. X |
+| `validation_configA.py` | Unsupervised detector (AE + reconstruction-error threshold): DR/FAR/F1/accuracy/ROC-AUC/PR-AUC with 95% CIs, ROC & PR curves, threshold-sensitivity sweep | Table 4 (row A) |
 | `autoencoder_configB.py` | Supervised variant (AE features + logistic regression) | Table 4 (row B) |
 | `shap_analysis.py` | SHAP attribution of the anomaly score, feature ranking, background-size sensitivity | XAI-TMS-3 feature subset, Fig. (SHAP) |
 | `counterfactual_generation.py` | Constrained counterfactuals + validity/proximity/sparsity/plausibility + case study | Table 5, Fig. 9 |
